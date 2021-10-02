@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    
+}
+
+.background-img{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: white;
+    background-attachment: fixed;
+}
+
+.navbar-img{
+    width: auto !important;
+    height: 100px;
+    float: left;
+}  
+
+.main-navbar{
+    text-transform: uppercase;
+}
+.main-navbar li{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 25px;
+}
+.main-navbar li a{
+    color:white;
+}
+.main-navbar li a:link,
+.main-navbar li a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 6px 0;
+    border-bottom: 2px solid #ffb84d transparent;
+    transition: border-bottom 0.2s;
+  }
+
+.main-navbar li a:hover,
+.main-navbar li a:active{
+    border-bottom: 2px solid #ffb84d;   
+  }
+
+
+.body-header{
+    margin-top: 150px;
+  }
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    opacity: 0.8;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;   
+}
+
+.button{
+    padding: 10px 30px;
+    border: 1px solid #ffb84d;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+.button-color{
+    background-color: #ffb84d;
+    color: black;
+}
+.button-color:hover,.contact-submit:hover{
+    background-color: #ffa31a;
+}
+
+.button-empty:hover{
+    background-color:#ffb84d;
+}
+
+/*contact us*/
+.margin{
+    margin: 0 200px !important;
+}
+
+
+.contact-submit{
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid #ffb84d;
+}
+
+/*about us*/
+
+.aboutus{
+    background-color: black !important;
+    color: white;
+}
+.fa-size{
+    font-size: 30px !important;
+}
+.icons{
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+/*reviews*/
+.reviews{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../images/background2.jpg") !important;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+i:before{
+    content:"\201c";
+    display: block;
+    font-size: 30px;
+}
+
+/*our team*/
+.ourteam{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/ourteam.jpg") !important;
+    background-size: cover; 
+    height: 700px;
+    background-attachment: fixed;
+}
+
+
+/*footer*/
+.size{
+    font-size: 15px !important;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    .profiles{
+        margin: 5px 5px !important;
+    }
+    .body-head{
+        padding-left: 3px !important;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    /*home background*/
+    .background-img{
+        height: auto;
+    }
+    .body-head{
+        padding-left: 2px !important;
+    }
+    .ourteam{
+        height: auto;
+    }
+    .profiles{
+        margin: 5px 30px !important;
+    }
+    .reviews{
+        height: auto;
+    }
+    .review-cont{
+        padding: 10px 100px !important;
+    }
+    .footer-icons{
+        margin-top: 15px;
+    }
+
+}
+
+/*medium*/
+
+@media only screen and (max-width: 768px){
+    .body-head{
+        padding-left: 5px !important;
+    }
+
+    .review-cont{
+        padding:0px 100px !important;
+    }
+
+    .profiles{
+        margin: 5px 100px !important;
+    }
+
+    .footer-icons{
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    .body-head{
+        padding-left: 5px !important;
+    }
+    /*reviews section*/
+    .review-cont{
+        padding:0px 80px !important;
+    }
+    .profiles{
+        margin: 5px 20px !important;
+    }
+}
+
+@media only screen and (max-width: 487px){
+    .body-head{
+        padding-left: 5px !important;
+    }
+    
+    .profiles{
+        margin: 0px -15px !important;
+    }
+    /*reviews*/
+    .reviews{
+        height: auto;
+        padding: 5px !important;
+    }
+    .review-cont{
+        padding-top: 15px !important;
+    }
+    
+}
